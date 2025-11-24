@@ -98,7 +98,9 @@ body{
 }
 
 .apresentacao__imagem{
-    width: 50%;
+    width: 80%;
+    border-radius: 20px;
+    border: 1px solid var(--cor-terciaria);
 }
 
 .rodape{
@@ -111,7 +113,7 @@ body{
     font-weight: 400;
 }
 
-@media (max-width:1200px){
+@media (max-width:1024px){
     .cabecalho{
         padding: 10%;
     }
@@ -125,5 +127,21 @@ body{
     .apresentacao__conteudo{
         width: auto;
     }
-    
+}
+
+@media (max-width:415px){
+    .cabecalho{
+        padding: 5%;
+    }
+    .cabecalho__menu{
+        gap: 10px;
+        justify-content: center;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao__conteudo{
+        width: auto;
+    }
 }
