@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --cor-primaria:#000000;
+    --cor-primaria:#DA6C6C;
     --cor-secundaria:#f6f6f6;
-    --cor-terciaria:#22d4fd;
-    --cor-hover: #272727;
+    --cor-terciaria:#AF3E3E;
+    --cor-hover: #CD5656;
 
     --fonte-primaria:"Montserrat", sans-serif;
     --fonte-secundaria: "Lato", sans-serif;
